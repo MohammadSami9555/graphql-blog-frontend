@@ -104,5 +104,7 @@ Structuring a scalable frontend project
 
 ## 🎥 Project Demo Video
 
-👉 [Click here to watch the demo video](videos/demo.mp4)
+▶️ Click here to watch demo video:  
+https://github.com/YOUR_USERNAME/graphql-blog-frontend/blob/main/videos/demo.mp4
+
 
