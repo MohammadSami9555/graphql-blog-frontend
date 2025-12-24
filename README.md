@@ -102,14 +102,3 @@ Structuring a scalable frontend project
 
 
 
-## 🎥 Project Demo Video
-
-▶️ Click here to watch demo video:  
-
-
-
-
-https://github.com/user-attachments/assets/d7911d44-2f6e-4e60-80bc-27d7ce6ecfcc
-
-
-
