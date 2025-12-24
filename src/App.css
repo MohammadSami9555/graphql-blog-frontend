@@ -1,0 +1,168 @@
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 50px 16px;
+  background: #f4f6f8;
+}
+
+.post-detail {
+  background: #ffffff;
+  max-width: 850px;
+  width: 100%;
+  padding: 36px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+.back-link {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.post-title {
+  margin-top: 16px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.post-body {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+.section-title {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.comment-form textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.comment-form button {
+  margin-top: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background: #1d4ed8;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  background: #f9fafb;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.comment strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #111827;
+}
+/* ===== FORCE CENTER ALIGN FOR POST PAGE ===== */
+
+.post-detail,
+.post-detail * {
+  text-align: center;
+}
+
+/* textarea + button center */
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment-form textarea {
+  max-width: 600px;
+}
+
+.comment-form button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* comments block center */
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* back link center */
+.back-link {
+  display: block;
+  text-align: center;
+}
+
+
+/* ===== FORCE CENTER FOR POST PAGE ONLY ===== */
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.post-card {
+  width: 100%;
+  max-width: 800px;
+  text-align: center !important;
+}
+
+/* ALL TEXT CENTER */
+.post-card h1,
+.post-card h2,
+.post-card h3,
+.post-card p,
+.post-card strong {
+  text-align: center !important;
+}
+
+/* COMMENT FORM CENTER */
+.post-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-card textarea {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.post-card button {
+  margin-top: 10px;
+}
+
+/* COMMENTS CENTER */
+.post-card .comment {
+  text-align: center;
+}
